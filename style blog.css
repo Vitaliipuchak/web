@@ -1,0 +1,99 @@
+    html{
+        background-color: lightgrey;
+    }
+    body{
+        width: 800px;
+        margin: 0 auto;
+        background-color: white;
+        background-image: url(image/1.jpg);
+        background-repeat: no-repeat;
+        padding-top: 250px;
+    }
+div.vid{
+    padding-top: 70px;
+}
+
+div.krasa{
+    font-size: 20px;
+margin:10px 0 0 30px;
+}
+
+h2,p{
+        font-style: italic;
+    }
+h2{
+        font-size: 30;
+        border-bottom: 2px solid lightgray;
+        margin:20px 5px 0 30px;
+        padding-top:10px;
+    }
+p {
+        font-size: 20px;
+        padding: 0 15px 15px 30px;
+        text-align: justify;
+    }
+video{
+        padding: 0 15px 15px 30px;
+    }
+#map {
+    height: 100px;
+    width: 100%;
+    }
+    #coolMenu,
+    #coolMenu ul {
+            list-style: none;
+        }
+    #coolMenu {
+            float: left;
+        }
+    #coolMenu > li {
+            float: left;
+        }
+    #coolMenu li a {
+        display: block;
+            height: 77px;
+            line-height: 75px;
+            padding: 0 57px;
+            text-decoration: none;
+        }
+    #coolMenu ul {
+            position: absolute;
+            display: none;
+        z-index: 999;
+        }
+    #coolMenu ul li a {
+            width: 150px;
+        }
+    #coolMenu li:hover ul {
+            display: block;
+        }
+    
+    #coolMenu {
+            padding-left: 0px;
+            font-family: Arial;
+            font-size: 16px;
+            margin: auto;
+            width: 800px;
+            background: rgba(0,0,0, .8);
+        }
+    #coolMenu > li > a {
+            color: white;
+            font-weight: bold;
+        }
+    #coolMenu > li:hover > a {
+            background:rgba(0,0,0, .6);
+            color: white;
+        }
+    #coolMenu ul {
+            background:rgba(0,0,0, .6);
+        }
+    #coolMenu ul li a {
+            color: white;
+        }
+    #coolMenu ul li:hover a {
+            background:black;
+        }
+    #coolMenu li:hover ul.noJS {
+            display: block;
+        }
+    
